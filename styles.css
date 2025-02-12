@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffebf3;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+img {
+    width: 200px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+#yesButton, #noButton {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#yesButton {
+    background-color: #ff69b4;
+    color: white;
+}
+
+#noButton {
+    background-color: #ccc;
+}
